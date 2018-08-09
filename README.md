@@ -3,7 +3,7 @@
 Author: Loan Lassalle
 ***
 
-## Project description
+## Description
 
 Develop a C# application that automates requests for temps to replace absent staff. The potential client will have direct access, without intermediaries, to available temporary staff, who have the criteria that match the profile sought to carry out the assignment.
 
@@ -26,4 +26,4 @@ Develop a C# application that automates requests for temps to replace absent sta
 
 ## Relational model
 
-![relational model](images/relational_model.svg)
+![Relational model](images/relational_model.svg)
