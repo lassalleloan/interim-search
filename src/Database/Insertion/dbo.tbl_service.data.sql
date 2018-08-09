@@ -1,0 +1,17 @@
+SET IDENTITY_INSERT [dbo].[tbl_service] ON
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (1, N'Bloc Opératoire')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (4, N'Cardiologie')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (14, N'Chirurgie Digestive')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (9, N'Gynécologie')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (15, N'Maladies Infectieuses')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (8, N'Maternité')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (5, N'Médecine')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (13, N'Néonatologie')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (12, N'Néphrologie')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (11, N'Oncologie')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (10, N'ORL')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (7, N'Pédiatrie')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (3, N'Salle de Réveil')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (6, N'Traumatologie')
+INSERT INTO [dbo].[tbl_service] ([idService], [service_Name]) VALUES (2, N'Urgences')
+SET IDENTITY_INSERT [dbo].[tbl_service] OFF

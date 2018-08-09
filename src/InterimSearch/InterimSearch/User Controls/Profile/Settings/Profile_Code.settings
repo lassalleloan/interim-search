@@ -1,0 +1,78 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Profile.Settings" GeneratedClassName="Profile_Code">
+  <Profiles />
+  <Settings>
+    <Setting Name="regexEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}</Value>
+    </Setting>
+    <Setting Name="Mailto" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mailto:</Value>
+    </Setting>
+    <Setting Name="TemporaryWorkReports" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\Interim Search\Temporary Work Reports\</Value>
+    </Setting>
+    <Setting Name="Underscore" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">_</Value>
+    </Setting>
+    <Setting Name="DotPDF" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.pdf</Value>
+    </Setting>
+    <Setting Name="Slash" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\</Value>
+    </Setting>
+    <Setting Name="TemplateWorkReport" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\Templates\Work Reports\template_WorkReport.html</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_Name</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_Number" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_Number</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_Street" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_Street</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_PostCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_PostCode</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_City" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_City</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_Region" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_Region</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_Contry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_Contry</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_PhoneNumber" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_PhoneNumber</Value>
+    </Setting>
+    <Setting Name="EmployementAgency_EmailAdress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@EmployementAgency_EmailAdress</Value>
+    </Setting>
+    <Setting Name="Temporary_Title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@Temporary_Title</Value>
+    </Setting>
+    <Setting Name="Temporary_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@Temporary_Name</Value>
+    </Setting>
+    <Setting Name="Temporary_FirstName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@Temporary_FirstName</Value>
+    </Setting>
+    <Setting Name="Temporary_BirthDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@Temporary_BirthDate</Value>
+    </Setting>
+    <Setting Name="Temporary_Profession" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@Temporary_Profession</Value>
+    </Setting>
+    <Setting Name="Generate_Date" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@Generate_Date</Value>
+    </Setting>
+    <Setting Name="Avaibility_Data" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@Avaibility_Data</Value>
+    </Setting>
+    <Setting Name="WorkTimetable_FinaleSum" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@WorkTimetable_FinaleSum</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

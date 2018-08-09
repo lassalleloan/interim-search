@@ -1,0 +1,68 @@
+﻿<UserControl x:Name="usc_graphStatGraphStat" x:Class="InterimSearch.User_Controls.Graphs_And_Stats.usc_graphStat"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1200">
+
+    <!-- Graphic Transformations -->
+    <UserControl.Resources>
+        <Storyboard x:Key="lbl_home_MouseEnter">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_home" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_home" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.2"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="lbl_home_MouseLeave">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_home" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_home" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="lbl_home">
+            <BeginStoryboard x:Name="lbl_home_MouseEnter_BeginStoryboard" Storyboard="{StaticResource lbl_home_MouseEnter}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="lbl_home">
+            <BeginStoryboard x:Name="lbl_home_MouseLeave_BeginStoryboard" Storyboard="{StaticResource lbl_home_MouseLeave}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+
+    <Grid x:Name="grd_graphStatLayout" Background="White" d:IsLocked="True">
+
+        <!-- Home -->
+        <Label x:Name="lbl_home" Margin="40,20,0,0" Content="Accueil" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="26" FontWeight="Bold" BorderBrush="Black" BorderThickness="0,0,0,1" MouseLeftButtonUp="lbl_home_MouseLeftButtonUp" RenderTransformOrigin="1,1" d:IsLocked="True">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+        <!-- Graph Base -->
+        <chartingToolkit:Chart x:Name="cht_GraphBase" Title="{Binding Title}" Margin="305,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="885" Height="600" BorderThickness="0" d:IsLocked="True"/>
+
+        <!-- Data To Graphic -->
+        <Label x:Name="lbl_dataToGraph" Content="Données sous forme graphique" Margin="40,163,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Height="26" d:IsLocked="True"/>
+        <ComboBox x:Name="cbo_dataToGraph" Margin="40,194,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Height="26" SelectionChanged="cbo_dataToGraph_SelectionChanged" d:IsLocked="True">
+            <ComboBoxItem Content="Nombre d'intérimaires par profession" IsSelected="True" d:IsLocked="True"/>
+            <ComboBoxItem Content="Nombre de missions acceptées par services" d:IsLocked="True"/>
+            <ComboBoxItem Content="Nombre d'intérimaires par agence d'intérim" d:IsLocked="True"/>
+            <ComboBoxItem Content="Nombre de missions acceptées, refusées et en attente par agence d'intérim" d:IsLocked="True"/>
+        </ComboBox>
+
+    </Grid>
+
+</UserControl>

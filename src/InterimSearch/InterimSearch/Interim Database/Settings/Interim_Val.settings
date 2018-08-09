@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.Interim_Database.Settings" GeneratedClassName="Interim_Val">
+  <Profiles />
+  <Settings>
+    <Setting Name="AllProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Toutes</Value>
+    </Setting>
+    <Setting Name="All" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Tous</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

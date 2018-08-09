@@ -1,0 +1,40 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Home.Settings" GeneratedClassName="Home_Val">
+  <Profiles />
+  <Settings>
+    <Setting Name="HomeTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Accueil</Value>
+    </Setting>
+    <Setting Name="ShowCriteria" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Plus de critères</Value>
+    </Setting>
+    <Setting Name="HideCriteria" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Moins de critères</Value>
+    </Setting>
+    <Setting Name="NullDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">La date sélectionnée est incorrecte.</Value>
+    </Setting>
+    <Setting Name="AllProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Toutes</Value>
+    </Setting>
+    <Setting Name="ProfessionListNull" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger les noms des professions.</Value>
+    </Setting>
+    <Setting Name="NullProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">La profession sélectionnée est incorrecte.</Value>
+    </Setting>
+    <Setting Name="WorkTimetableListNull" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger les horaires de travail.</Value>
+    </Setting>
+    <Setting Name="NullWorkTimetable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">L'horaire de travail sélectionné est incorrect.</Value>
+    </Setting>
+    <Setting Name="BetweenTime" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> - </Value>
+    </Setting>
+    <Setting Name="LaunchAgain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">La connexion avec la base de données a été interrompu.
+Veuillez relancer l'application</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

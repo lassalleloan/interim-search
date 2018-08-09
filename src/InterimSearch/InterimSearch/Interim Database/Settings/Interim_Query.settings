@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.Interim_Database.Settings" GeneratedClassName="Interim_Query">
+  <Profiles />
+  <Settings>
+    <Setting Name="SelectIDTemporary" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT [tbl_temporary].[idTemporary] FROM [tbl_avaibility]</Value>
+    </Setting>
+    <Setting Name="InnerJoinBasics" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> INNER JOIN [tbl_workTimetable] ON [tbl_avaibility].[idWorkTimetable]=[tbl_workTimetable].[idWorkTimetable] INNER JOIN [tbl_temporary] ON [tbl_avaibility].[idTemporary]=[tbl_temporary].[idTemporary] INNER JOIN [tbl_profession] ON [tbl_temporary].[idProfession]=[tbl_profession].[idProfession] </Value>
+    </Setting>
+    <Setting Name="InnerJoinCity" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> INNER JOIN [tbl_city] ON [tbl_temporary].[idCity]=[tbl_city].[idCity]</Value>
+    </Setting>
+    <Setting Name="ClauseBasics" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> WHERE [tbl_avaibility].[idService] IS NULL AND ([tbl_avaibility].[avaibility_AcceptedMission]=0 OR [tbl_avaibility].[avaibility_AcceptedMission] IS NULL) AND [tbl_avaibility].[avaibility_Date]=@Date AND [tbl_workTimetable].[workTimetable_Start]=@WorkTimetableStart AND [tbl_workTimetable].[workTimetable_End]=@WorkTimetableEnd AND [tbl_temporary].[temporary_Certified]=@IsCertified</Value>
+    </Setting>
+    <Setting Name="ClauseProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> AND [tbl_profession].[profession_Name]=@Profession</Value>
+    </Setting>
+    <Setting Name="ClauseBirthDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> AND [tbl_temporary].[temporary_BirthDate] BETWEEN @AgeYearOld AND @AgeYearRecent</Value>
+    </Setting>
+    <Setting Name="ClauseSartDateExp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> AND [tbl_temporary].[temporary_StartDateExperience] BETWEEN @NbrYearExpOld AND @NbrYearExpRecent</Value>
+    </Setting>
+    <Setting Name="Date" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Date</Value>
+    </Setting>
+    <Setting Name="WorkTimetableStart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WorkTimetableStart</Value>
+    </Setting>
+    <Setting Name="IsCertified" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IsCertified</Value>
+    </Setting>
+    <Setting Name="Profession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Profession</Value>
+    </Setting>
+    <Setting Name="AgeYearOld" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AgeYearOld</Value>
+    </Setting>
+    <Setting Name="AgeYearRecent" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AgeYearRecent</Value>
+    </Setting>
+    <Setting Name="NbrYearExpOld" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NbrYearExpOld</Value>
+    </Setting>
+    <Setting Name="NbrYearExpRecent" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NbrYearExpRecent</Value>
+    </Setting>
+    <Setting Name="OrderBy" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> ORDER BY [tbl_temporary].[temporary_Name];</Value>
+    </Setting>
+    <Setting Name="WorkTimetableEnd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WorkTimetableEnd</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

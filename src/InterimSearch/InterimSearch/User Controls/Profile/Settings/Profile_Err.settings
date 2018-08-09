@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Profile.Settings" GeneratedClassName="Profile_Err">
+  <Profiles />
+  <Settings>
+    <Setting Name="ErrorTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Erreur au sein du programme</Value>
+    </Setting>
+    <Setting Name="CreateWorkReport" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "Profile.CreateWorkReport".</Value>
+    </Setting>
+    <Setting Name="TryOpenFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "Profile.TryOpenFile".</Value>
+    </Setting>
+    <Setting Name="SaveWorkReport" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "Profile.SaveWorkReport".</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

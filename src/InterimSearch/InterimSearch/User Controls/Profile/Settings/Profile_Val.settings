@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Profile.Settings" GeneratedClassName="Profile_Val">
+  <Profiles />
+  <Settings>
+    <Setting Name="ProfileTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Profil d'intérimaire</Value>
+    </Setting>
+    <Setting Name="Year" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> ans</Value>
+    </Setting>
+    <Setting Name="InternationalSymbol" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">+ </Value>
+    </Setting>
+    <Setting Name="TemporaryInformations" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger les informations de l'intérimaire.</Value>
+    </Setting>
+    <Setting Name="NullWorkReport" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de créer ou de sauvegarder le rapport de travail.</Value>
+    </Setting>
+    <Setting Name="FakeEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">x@x.x</Value>
+    </Setting>
+    <Setting Name="NullEmploymentAgencyID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger les informations de l'agence d'intérim.</Value>
+    </Setting>
+    <Setting Name="NullWorkReportInformations" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Cet intérimaire n'a effectué aucune mission pour l'instant.</Value>
+    </Setting>
+    <Setting Name="InformationTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Informations</Value>
+    </Setting>
+    <Setting Name="NullEmailApplication" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible d'ouvrir un email vierge sans un client de messagerie électronique.</Value>
+    </Setting>
+    <Setting Name="NullEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">L'adresse email de l'intérimaire est incorrecte.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

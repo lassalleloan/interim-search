@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Sent_Offer.Settings" GeneratedClassName="SentOffer_Err">
+  <Profiles />
+  <Settings>
+    <Setting Name="ErrorTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Erreur au sein du programme</Value>
+    </Setting>
+    <Setting Name="CreateBodyMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "SentOffer.CreateBodyMessage".</Value>
+    </Setting>
+    <Setting Name="CreateMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "SentOffer.CreateMessage".</Value>
+    </Setting>
+    <Setting Name="IsSentEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "SentOffer.SentEmail".</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

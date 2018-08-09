@@ -1,0 +1,162 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.Interim_Database.Settings" GeneratedClassName="Interim_Err">
+  <Profiles />
+  <Settings>
+    <Setting Name="ErrorTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Erreur au sein du programme</Value>
+    </Setting>
+    <Setting Name="GetProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetProfession".</Value>
+    </Setting>
+    <Setting Name="GetWorkTimetable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetWorkTimetable".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryFirstName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryFirstName".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryID".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryName".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryNbrYearExp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryNbrYearExp".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryAge" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryAge".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryCity" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryCity".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryTitle".</Value>
+    </Setting>
+    <Setting Name="GetService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetService".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryEmailAdress".</Value>
+    </Setting>
+    <Setting Name="SetSendDateAndService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.SetSendDateAndService".</Value>
+    </Setting>
+    <Setting Name="GetAvaibilityID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetAvaibilityID".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryStreet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryStreet".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryNumber".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryPostCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryPostCode".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryRegion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryRegion".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryPhoneNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryPhoneNumber".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryProfession".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryEmploymentAgency".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryCertified" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryCertified".</Value>
+    </Setting>
+    <Setting Name="GetAvaibilityDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetAvaibilityDate".</Value>
+    </Setting>
+    <Setting Name="GetAvaibilityIDAll" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetAvaibilityIDAll".</Value>
+    </Setting>
+    <Setting Name="GetAvaibilityTemporaryID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetAvaibilityTemporaryID".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryService".</Value>
+    </Setting>
+    <Setting Name="GetTemporarySendDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporarySendDate".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryAcceptedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryAcceptedMission".</Value>
+    </Setting>
+    <Setting Name="SetStateMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.SetStateMission".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryDate".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryWorkTimetableStart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryWorkTimetableStart".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryWorkTimetableEnd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryWorkTimetableEnd".</Value>
+    </Setting>
+    <Setting Name="SetAbortMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.SetAbortMission".</Value>
+    </Setting>
+    <Setting Name="GetAbortAvibilityID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetAbortAvibilityID".</Value>
+    </Setting>
+    <Setting Name="GetAvaibilityWorkTimetable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetAvaibilityWorkTimetable".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryWorkReport" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryWorkReport".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetEmploymentAgencyID".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyCity" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetEmploymentAgencyCity".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyCountry" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetEmploymentAgencyCountry".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetEmploymentAgencyEmailAdress".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetEmploymentAgencyNumber".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyPhoneNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetEmploymentAgencyPhoneNumber".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyStreet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetEmploymentAgencyStreet".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyRegion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetEmploymentAgencyRegion".</Value>
+    </Setting>
+    <Setting Name="GetEmploymentAgencyPostCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetCountTemporaryProfession".</Value>
+    </Setting>
+    <Setting Name="GetCountTemporaryProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetCountTemporaryProfession".</Value>
+    </Setting>
+    <Setting Name="GetCountAcceptedMissionService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetCountTemporaryEmploymentAgency".</Value>
+    </Setting>
+    <Setting Name="GetCountTemporaryEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetCountTemporaryEmploymentAgency".</Value>
+    </Setting>
+    <Setting Name="GetCountAcceptedMissionEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetCountAcceptedMissionEmploymentAgency".</Value>
+    </Setting>
+    <Setting Name="GetCountRejectedMissionEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetCountRejectedMissionEmploymentAgency".</Value>
+    </Setting>
+    <Setting Name="GetCountWaitedMissionEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetCountWaitedMissionEmploymentAgency".</Value>
+    </Setting>
+    <Setting Name="GetTemporaryBirthDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.GetTemporaryBirthDate".</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

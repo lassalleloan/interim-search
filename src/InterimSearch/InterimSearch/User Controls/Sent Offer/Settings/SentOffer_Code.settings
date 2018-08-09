@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Sent_Offer.Settings" GeneratedClassName="SentOffer_Code">
+  <Profiles />
+  <Settings>
+    <Setting Name="lbl_answerOffer_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">avaibilityID_</Value>
+    </Setting>
+    <Setting Name="True" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="regexEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$</Value>
+    </Setting>
+    <Setting Name="TemplateAcceptPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\Templates\Offers\template_AcceptOffer.html</Value>
+    </Setting>
+    <Setting Name="Temporary_Title" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@Temporary_Title</Value>
+    </Setting>
+    <Setting Name="Temporary_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@Temporary_Name</Value>
+    </Setting>
+    <Setting Name="Avaibility_DayName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@Avaibility_DayName</Value>
+    </Setting>
+    <Setting Name="Avaibility_DayNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@Avaibility_DayNumber</Value>
+    </Setting>
+    <Setting Name="Avaibility_Month" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@Avaibility_Month</Value>
+    </Setting>
+    <Setting Name="WorkTimetable_Start" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@WorkTimetable_Start</Value>
+    </Setting>
+    <Setting Name="WorkTimetable_End" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@WorkTimetable_End</Value>
+    </Setting>
+    <Setting Name="Avaibility_Service" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@Avaibility_Service</Value>
+    </Setting>
+    <Setting Name="Avaibility_SendDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@Avaibility_SendDate</Value>
+    </Setting>
+    <Setting Name="TemplateRejectPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\Templates\Offers\template_RejectOffer.html</Value>
+    </Setting>
+    <Setting Name="TemplateAbortPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\Templates\Offers\template_AbortOffer.html</Value>
+    </Setting>
+    <Setting Name="OpenTitleBalise" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;title&gt;</Value>
+    </Setting>
+    <Setting Name="CloseTitleBalise" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;/title&gt;</Value>
+    </Setting>
+    <Setting Name="OutlookApplication" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Outlook.Application</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

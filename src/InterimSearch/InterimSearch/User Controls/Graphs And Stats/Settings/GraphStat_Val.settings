@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Graphs_And_Stats.Settings" GeneratedClassName="GraphStat_Val">
+  <Profiles />
+  <Settings>
+    <Setting Name="GraphStatTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Graphiques et statistiques</Value>
+    </Setting>
+    <Setting Name="TemporaryProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nombre
+d'intérimaires
+par profession</Value>
+    </Setting>
+    <Setting Name="AcceptedMissionService" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Missions
+acceptées
+par service</Value>
+    </Setting>
+    <Setting Name="TemporaryEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nombre
+d'intérimaires par
+agence d'intérim</Value>
+    </Setting>
+    <Setting Name="AcceptedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Missions acceptées</Value>
+    </Setting>
+    <Setting Name="RejectedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Missions refusées</Value>
+    </Setting>
+    <Setting Name="WaitedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mission en attente</Value>
+    </Setting>
+    <Setting Name="NullGraphInformations" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger les informations pour construire le graphique.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

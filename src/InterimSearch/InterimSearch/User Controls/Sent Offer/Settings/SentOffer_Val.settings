@@ -1,0 +1,96 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Sent_Offer.Settings" GeneratedClassName="SentOffer_Val">
+  <Profiles />
+  <Settings>
+    <Setting Name="SentOfferTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Propositions de missions envoyées</Value>
+    </Setting>
+    <Setting Name="lbl_anyItem_Content" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Aucune proposition de mission n'a été envoyée.</Value>
+    </Setting>
+    <Setting Name="BetweenTime" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> - </Value>
+    </Setting>
+    <Setting Name="lbl_temporarySendDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Date d'envoi de la proposition de mission :</Value>
+    </Setting>
+    <Setting Name="AcceptedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mission acceptée par l'intérimaire</Value>
+    </Setting>
+    <Setting Name="RejectedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mission refusée par l'intérimaire</Value>
+    </Setting>
+    <Setting Name="AcceptMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mission acceptée...</Value>
+    </Setting>
+    <Setting Name="RejectMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mission refusée...</Value>
+    </Setting>
+    <Setting Name="ConfirmAcceptMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Etes-vous sûr de vouloir confirmer l'acceptation de la mission par
+</Value>
+    </Setting>
+    <Setting Name="ConfirmAcceptMissionTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Confirmation d'acceptation de la mission</Value>
+    </Setting>
+    <Setting Name="Ask" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> ?</Value>
+    </Setting>
+    <Setting Name="NullSetAvaibilityAcceptedOrAbortedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">L'enregistrement de l'acceptation et des annulations de la mission ont échoué.</Value>
+    </Setting>
+    <Setting Name="NullEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">L'adresse email de l'intérimaire est incorrecte.</Value>
+    </Setting>
+    <Setting Name="NullInformations" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger les informations de l'intérimaire.</Value>
+    </Setting>
+    <Setting Name="NullTemporaryID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de trouver l'intérimaire.</Value>
+    </Setting>
+    <Setting Name="NullMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Le contenu de l'email est inexistant.</Value>
+    </Setting>
+    <Setting Name="EmailSent" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Envoi de l'email confirmé.</Value>
+    </Setting>
+    <Setting Name="InformationTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Informations</Value>
+    </Setting>
+    <Setting Name="NullSendEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">L'envoi de l'email a échoué.</Value>
+    </Setting>
+    <Setting Name="FakeEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">x@x.x</Value>
+    </Setting>
+    <Setting Name="NullAvaibilityInformations" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger les informations de la mission.</Value>
+    </Setting>
+    <Setting Name="NullEmailAdressOrDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger l'adresse email ou la date de mission.</Value>
+    </Setting>
+    <Setting Name="ConfirmRejectMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Etes-vous sûr de vouloir confirmer le refus de la mission par
+</Value>
+    </Setting>
+    <Setting Name="ConfirmRejectMissionTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Confirmation de refus de mission envoyée</Value>
+    </Setting>
+    <Setting Name="OtherActionMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Autres actions...</Value>
+    </Setting>
+    <Setting Name="AbortMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mission annulée...</Value>
+    </Setting>
+    <Setting Name="ConfirmAbortMissionTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Confirmation d'annulation de mission envoyée</Value>
+    </Setting>
+    <Setting Name="ConfirmAbortMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Etes-vous sûr de vouloir confirmer l'annulation de la mission par
+</Value>
+    </Setting>
+    <Setting Name="NullOutlookApplication" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible d'envoyer des emails sans le client de messagerie électronique Microsoft Outlook.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

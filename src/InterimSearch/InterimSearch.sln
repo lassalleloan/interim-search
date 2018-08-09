@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterimSearch", "InterimSearch\InterimSearch.csproj", "{CD700730-8643-4550-9174-576C59CE7861}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Interim Setup", "Interim Setup\Interim Setup.vdproj", "{8100E5CD-C4FB-4FB4-BB4D-6FECA506A27D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD700730-8643-4550-9174-576C59CE7861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD700730-8643-4550-9174-576C59CE7861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD700730-8643-4550-9174-576C59CE7861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD700730-8643-4550-9174-576C59CE7861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD700730-8643-4550-9174-576C59CE7861}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8100E5CD-C4FB-4FB4-BB4D-6FECA506A27D}.Debug|Any CPU.ActiveCfg = Debug
+		{8100E5CD-C4FB-4FB4-BB4D-6FECA506A27D}.Debug|Any CPU.Build.0 = Debug
+		{8100E5CD-C4FB-4FB4-BB4D-6FECA506A27D}.Release|Any CPU.ActiveCfg = Release
+		{8100E5CD-C4FB-4FB4-BB4D-6FECA506A27D}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

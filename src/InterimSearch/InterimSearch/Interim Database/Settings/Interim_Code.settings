@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.Interim_Database.Settings" GeneratedClassName="Interim_Code">
+  <Profiles />
+  <Settings>
+    <Setting Name="InterimDatabaseConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=(LocalDB)\v11.0;AttachDbFilename="|DataDirectory|\Interim Database\Database\Interim.mdf";Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="DateTimeFormatDatabase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0:yyyy-MM-dd}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

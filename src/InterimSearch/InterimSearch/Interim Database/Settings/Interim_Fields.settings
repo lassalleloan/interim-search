@@ -1,0 +1,117 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.Interim_Database.Settings" GeneratedClassName="Interim_Fields">
+  <Profiles />
+  <Settings>
+    <Setting Name="IDTemporary" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">idTemporary</Value>
+    </Setting>
+    <Setting Name="Temporary_Title" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_Title</Value>
+    </Setting>
+    <Setting Name="Temporary_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_Name</Value>
+    </Setting>
+    <Setting Name="Temporary_FirstName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_FirstName</Value>
+    </Setting>
+    <Setting Name="Temporary_YearBirthDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_YearBirthDate</Value>
+    </Setting>
+    <Setting Name="Temporary_Street" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_Street</Value>
+    </Setting>
+    <Setting Name="Temporary_Number" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_Number</Value>
+    </Setting>
+    <Setting Name="Temporary_PostCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_PostCode</Value>
+    </Setting>
+    <Setting Name="City_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">city_Name</Value>
+    </Setting>
+    <Setting Name="Region_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">region_Name</Value>
+    </Setting>
+    <Setting Name="Temporary_PhoneNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_PhoneNumber</Value>
+    </Setting>
+    <Setting Name="Temporary_EmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_EmailAdress</Value>
+    </Setting>
+    <Setting Name="Temporary_Certified" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_Certified</Value>
+    </Setting>
+    <Setting Name="Temporary_YearStartDateExperience" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_YearStartDateExperience</Value>
+    </Setting>
+    <Setting Name="Profession_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">profession_Name</Value>
+    </Setting>
+    <Setting Name="EmploymentAgency_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">employmentAgency_Name</Value>
+    </Setting>
+    <Setting Name="IDAvaibility" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">idAvaibility</Value>
+    </Setting>
+    <Setting Name="Avaibility_Date" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">avaibility_Date</Value>
+    </Setting>
+    <Setting Name="IDWorkTimetable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">idWorkTimetable</Value>
+    </Setting>
+    <Setting Name="Avaibility_SendDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">avaibility_SendDate</Value>
+    </Setting>
+    <Setting Name="Avaibility_AcceptedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">avaibility_AcceptedMission</Value>
+    </Setting>
+    <Setting Name="DateNow" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DateNow</Value>
+    </Setting>
+    <Setting Name="WorkTimetable_Start" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">workTimetable_Start</Value>
+    </Setting>
+    <Setting Name="WorkTimetable_End" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">workTimetable_End</Value>
+    </Setting>
+    <Setting Name="Service_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">service_Name</Value>
+    </Setting>
+    <Setting Name="IDEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">idEmploymentAgency</Value>
+    </Setting>
+    <Setting Name="Country_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">country_Name</Value>
+    </Setting>
+    <Setting Name="EmploymentAgency_EmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">employmentAgency_EmailAdress</Value>
+    </Setting>
+    <Setting Name="EmploymentAgency_PhoneNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">employmentAgency_PhoneNumber</Value>
+    </Setting>
+    <Setting Name="EmploymentAgency_Number" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">employmentAgency_Number</Value>
+    </Setting>
+    <Setting Name="EmploymentAgency_Street" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">employmentAgency_Street</Value>
+    </Setting>
+    <Setting Name="EmploymentAgency_PostCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">employmentAgency_PostCode</Value>
+    </Setting>
+    <Setting Name="Count_Temporary" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">count_Temporary</Value>
+    </Setting>
+    <Setting Name="Count_AcceptedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">count_AcceptedMission</Value>
+    </Setting>
+    <Setting Name="Count_RejectedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">count_RejectedMission</Value>
+    </Setting>
+    <Setting Name="Count_WaitedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">count_WaitedMission</Value>
+    </Setting>
+    <Setting Name="Temporary_BirthDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temporary_BirthDate</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

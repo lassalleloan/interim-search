@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Results.Settings" GeneratedClassName="Results_Err">
+  <Profiles />
+  <Settings>
+    <Setting Name="ErrorTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Erreur au sein du programme</Value>
+    </Setting>
+    <Setting Name="CreateBodyMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.CreateBodyMessage".</Value>
+    </Setting>
+    <Setting Name="CreateMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.CreateMessage".</Value>
+    </Setting>
+    <Setting Name="IsSendEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Une erreur s'est produite lors de l'accès à la méthode "InterimDatabase.IsSendEmail".</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

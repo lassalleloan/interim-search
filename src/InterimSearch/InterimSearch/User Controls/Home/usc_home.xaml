@@ -1,0 +1,176 @@
+﻿<UserControl x:Name="usc_homeHome" x:Class="InterimSearch.User_Controls.Home.usc_home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="720" d:DesignWidth="1200" KeyUp="usc_home_KeyUp">
+
+    <!-- Graphic Transformations -->
+    <UserControl.Resources>
+        <Storyboard x:Key="lbl_sentOffer_MouseEnter">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_sentOffer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_sentOffer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.2"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="lbl_sentOffer_MouseLeave">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_sentOffer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_sentOffer" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="lbl_graphStat_MouseEnter">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_graphStat" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_graphStat" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.2"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="lbl_graphStat_MouseLeave">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_graphStat" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_graphStat" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="lbl_addCriteria_MouseEnter">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_addCriteria" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_addCriteria" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.2"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="lbl_addCriteria_MouseLeave">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_addCriteria" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="lbl_addCriteria" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="lbl_sentOffer">
+            <BeginStoryboard x:Name="lbl_sentOffer_MouseEnter_BeginStoryboard" Storyboard="{StaticResource lbl_sentOffer_MouseEnter}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="lbl_sentOffer">
+            <BeginStoryboard x:Name="lbl_sentOffer_MouseLeave_BeginStoryboard" Storyboard="{StaticResource lbl_sentOffer_MouseLeave}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="lbl_graphStat">
+            <BeginStoryboard x:Name="lbl_graphStat_MouseEnter_BeginStoryboard" Storyboard="{StaticResource lbl_graphStat_MouseEnter}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="lbl_graphStat">
+            <BeginStoryboard x:Name="lbl_graphStat_MouseLeave_BeginStoryboard" Storyboard="{StaticResource lbl_graphStat_MouseLeave}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="lbl_addCriteria">
+            <BeginStoryboard x:Name="lbl_addCriteria_MouseEnter_BeginStoryboard" Storyboard="{StaticResource lbl_addCriteria_MouseEnter}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="lbl_addCriteria">
+            <BeginStoryboard x:Name="lbl_addCriteria_MouseLeave_BeginStoryboard" Storyboard="{StaticResource lbl_addCriteria_MouseLeave}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+
+    <Grid x:Name="grd_homeLayout" Background="White" d:IsLocked="True">
+
+        <!-- Sent Offer -->
+        <Label x:Name="lbl_sentOffer" Content="Propositions de missions envoyées"  Margin="40,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="Auto" BorderBrush="Black" BorderThickness="0,0,0,1" MouseLeftButtonUp="lbl_sentOffer_MouseLeftButtonUp" RenderTransformOrigin="1,1" d:IsLocked="True">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+        <!-- Graphic Statistics -->
+        <Label x:Name="lbl_graphStat" Content="Graphiques et statistiques" Margin="40,52,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="Auto" BorderBrush="Black" BorderThickness="0,0,0,1" MouseLeftButtonUp="lbl_graphStat_MouseLeftButtonUp" RenderTransformOrigin="1,1" d:IsLocked="True">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+        <!-- Message -->
+        <Label x:Name="lbl_message" Margin="300,219,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="600" Height="26" FontWeight="Bold" Foreground="Red" HorizontalContentAlignment="Center" d:IsLocked="True"/>
+
+        <!-- Date -->
+        <Label x:Name="lbl_date" Content="Date" Margin="187,304,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="26" d:IsLocked="True"/>
+        <TextBox x:Name="txt_date" Margin="227,304,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Height="26" TextWrapping="NoWrap" TabIndex="1" MaxLength="10" GotFocus="txt_date_GotFocus" d:IsLocked="True"/>
+
+        <!-- Calendar -->
+        <Button x:Name="cmd_calendar" Content="Calendrier" Margin="342,304,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="26" Click="cmd_calendar_Click" d:IsLocked="True"/>
+        <Calendar x:Name="cal_date" Margin="200,335,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="188" Height="170" SelectedDatesChanged="cal_date_SelectedDatesChanged" d:IsLocked="True"/>
+
+        <!-- WorkTimetable -->
+        <Label x:Name="lbl_workTimetable" Content="Horaire de travail" Margin="468,304,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="26" d:IsLocked="True"/>
+        <ComboBox x:Name="cbo_workTimetable" Margin="574,304,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="26" d:IsLocked="True"/>
+
+        <!-- Profession -->
+        <Label x:Name="lbl_profession" Content="Profession" Margin="761,304,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="26" d:IsLocked="True"/>
+        <ComboBox x:Name="cbo_profession" Margin="831,304,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="26" d:IsLocked="True"/>
+
+        <!-- Search -->
+        <Button x:Name="cmd_search" Content="Recherher" Margin="956,304,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="26" Click="cmd_search_Click" d:IsLocked="True"/>
+
+        <!-- Add Criteria -->
+        <Label x:Name="lbl_addCriteria" Content="Plus de critères" Margin="909,335,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="Auto" BorderBrush="Black" BorderThickness="0,0,0,1" MouseLeftButtonUp="lbl_addCriteria_MouseLeftButtonUp" d:IsLocked="True">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+        <!-- Certified -->
+        <CheckBox x:Name="chk_certified" Content="Certifié Employeur" Margin="242,389,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="17" d:IsLocked="True"/>
+
+        <!-- Age -->
+        <Label x:Name="lbl_age" Content="Age" Margin="429,384,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="26" d:IsLocked="True"/>
+        <ComboBox x:Name="cbo_age" Margin="465,384,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="26" d:IsLocked="True">
+            <ComboBoxItem Content="Tous" IsSelected="True" d:IsLocked="True"/>
+            <ComboBoxItem Content="20 - 30 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="30 - 40 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="40 - 50 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="50 - 60 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="60 - 70 ans" d:IsLocked="True"/>
+        </ComboBox>
+
+        <!-- Number Year Experience -->
+        <Label x:Name="lbl_nbrYearExp" Content="Nombre d'années d'expérience" Margin="661,384,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Height="26" d:IsLocked="True"/>
+        <ComboBox x:Name="cbo_nbrYearExp" Margin="840,384,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="26" d:IsLocked="True">
+            <ComboBoxItem Content="Tous" IsSelected="True" d:IsLocked="True"/>
+            <ComboBoxItem Content="0 - 5 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="5 - 10 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="10 - 20 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="20 - 30 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="30 - 40 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="40 - 50 ans" d:IsLocked="True"/>
+            <ComboBoxItem Content="50 - 60 ans" d:IsLocked="True"/>
+        </ComboBox>
+
+    </Grid>
+
+</UserControl>

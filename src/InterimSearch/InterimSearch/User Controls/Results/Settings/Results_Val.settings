@@ -1,0 +1,79 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.User_Controls.Results.Settings" GeneratedClassName="Results_Val">
+  <Profiles />
+  <Settings>
+    <Setting Name="ResultsTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Résultats de la recherche</Value>
+    </Setting>
+    <Setting Name="CertifiedEmployer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Certifié Employeur</Value>
+    </Setting>
+    <Setting Name="CertifiedAll" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Toutes certifications</Value>
+    </Setting>
+    <Setting Name="lbl_temporaryAge" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Age :</Value>
+    </Setting>
+    <Setting Name="Year" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> ans</Value>
+    </Setting>
+    <Setting Name="lbl_anyItem_Content" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Aucun enregistrement ne correspond à votre recherche.</Value>
+    </Setting>
+    <Setting Name="lbl_temporaryNbrYearExp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nombre d'années d'expérience :</Value>
+    </Setting>
+    <Setting Name="lbl_CertidiedSection_Content" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Intérimaires certifiés</Value>
+    </Setting>
+    <Setting Name="lbl_UncertidiedSection_Content" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Intérimaires non certifiés</Value>
+    </Setting>
+    <Setting Name="lbl_sendOffer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proposition de mission...</Value>
+    </Setting>
+    <Setting Name="ConfirmSendEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Etes-vous sûr de vouloir envoyer une proposition de mission à
+</Value>
+    </Setting>
+    <Setting Name="TitleConfirmSendEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Confirmation de proposition de mission</Value>
+    </Setting>
+    <Setting Name="NullEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">L'adresse email de l'intérimaire est incorrecte.</Value>
+    </Setting>
+    <Setting Name="Ask" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> ?</Value>
+    </Setting>
+    <Setting Name="ForServiceOf" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> pour le service de </Value>
+    </Setting>
+    <Setting Name="FakeEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">x@x.x</Value>
+    </Setting>
+    <Setting Name="CreateMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger le modèle du message de proposition de mission.</Value>
+    </Setting>
+    <Setting Name="IsNullMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Le message de proposition de mission est inexistant.</Value>
+    </Setting>
+    <Setting Name="EmailSent" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proposition de mission envoyée.</Value>
+    </Setting>
+    <Setting Name="InformationTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Informations</Value>
+    </Setting>
+    <Setting Name="NullSendEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">L'envoi de la proposition de mission a échoué.</Value>
+    </Setting>
+    <Setting Name="lbl_profile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Consulter le profil</Value>
+    </Setting>
+    <Setting Name="NullInformations" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible de charger les informations de l'intérimaire.</Value>
+    </Setting>
+    <Setting Name="NullOutlookApplication" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Impossible d'envoyer des emails sans le client de messagerie électronique Microsoft Outlook.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,156 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="InterimSearch.Interim_Database.Settings" GeneratedClassName="Interim_Proc">
+  <Profiles />
+  <Settings>
+    <Setting Name="Proc_GetWorkTimetable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetWorkTimetable</Value>
+    </Setting>
+    <Setting Name="Proc_GetProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetProfession</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryName</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryFirstName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryFirstName</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryNbrYearExp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryNbrYearExp</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryCity" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryCity</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryAge" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryAge</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryTitle</Value>
+    </Setting>
+    <Setting Name="Proc_GetService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetService</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryEmailAdress</Value>
+    </Setting>
+    <Setting Name="Proc_SetSendDateAndService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_SetSendDateAndService</Value>
+    </Setting>
+    <Setting Name="Proc_GetAvaibilityID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetAvaibilityID</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryStreet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryStreet</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryNumber</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryPostCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryPostCode</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryRegion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryRegion</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryPhoneNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryPhoneNumber</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryProfession</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryEmploymentAgency</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryCertified" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryCertified</Value>
+    </Setting>
+    <Setting Name="Proc_GetAvaibilityDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetAvaibilityDate</Value>
+    </Setting>
+    <Setting Name="Proc_GetAvaibilityIDAll" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetAvaibilityIDAll</Value>
+    </Setting>
+    <Setting Name="Proc_GetAvaibilityTemporaryID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetAvaibilityTemporaryID</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryService</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporarySendDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporarySendDate</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryAcceptedMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryAcceptedMission</Value>
+    </Setting>
+    <Setting Name="Proc_SetStateMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_SetStateMission</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryDate</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryWorkTimetableStart" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryWorkTimetableStart</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryWorkTimetableEnd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryWorkTimetableEnd</Value>
+    </Setting>
+    <Setting Name="Proc_SetAbortMission" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_SetAbortMission</Value>
+    </Setting>
+    <Setting Name="Proc_GetAbortAvaibilityID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetAbortAvaibilityID</Value>
+    </Setting>
+    <Setting Name="Proc_GetAvaibilityWorkTimetable" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetAvaibilityWorkTimetable</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryWorkReport" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryWorkReport</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyID</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyCity" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyCity</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyCountry" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyCountry</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyEmailAdress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyEmailAdress</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyNumber</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyPhoneNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyPhoneNumber</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyPostCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyPostCode</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyRegion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyRegion</Value>
+    </Setting>
+    <Setting Name="Proc_GetEmploymentAgencyStreet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetEmploymentAgencyStreet</Value>
+    </Setting>
+    <Setting Name="Proc_GetCountTemporaryProfession" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetCountTemporaryProfession</Value>
+    </Setting>
+    <Setting Name="Proc_GetCountAcceptedMissionService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetCountAcceptedMissionService</Value>
+    </Setting>
+    <Setting Name="Proc_GetCountTemporaryEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetCountTemporaryEmploymentAgency</Value>
+    </Setting>
+    <Setting Name="Proc_GetCountWaitedMissionEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetCountWaitedMissionEmploymentAgency</Value>
+    </Setting>
+    <Setting Name="Proc_GetCountRejectedMissionEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetCountRejectedMissionEmploymentAgency</Value>
+    </Setting>
+    <Setting Name="Proc_GetCountAcceptedMissionEmploymentAgency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetCountAcceptedMissionEmploymentAgency</Value>
+    </Setting>
+    <Setting Name="Proc_GetTemporaryBirthDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proc_GetTemporaryBirthDate</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
