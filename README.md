@@ -26,4 +26,6 @@ Develop a C# application that automates requests for temps to replace absent sta
 
 ## Relational model
 
-![Relational model](images/relational_model.svg)
+<p align="center">
+  <img src="./images/relational_model.svg" alt="Relational model">
+</p>
